@@ -1,6 +1,6 @@
 package basic_03;
 public class scope {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         int a = 20;
         int b = 12;
         //System.out.println(num);
