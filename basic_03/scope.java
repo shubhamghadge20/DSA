@@ -6,7 +6,7 @@ public class scope {
         //System.out.println(num);
         //above we can not access num here because num is part of demo function we cant access it outside the function
         //so this called as function scope
-
+        //below type called block scope
         {
             // int a =20; alresdy initialized  outside the block in same method, you can mot initialized in  block
             a =78; //you can update the value
@@ -19,5 +19,6 @@ public class scope {
 
     public static void demo(){
         int num = 23;
+        //this type is functional block
     }
 }
