@@ -3,7 +3,7 @@ package basic_03;
 //method
 
 import java.util.Scanner;
-public class sum {
+public class sum_method {
     public static void main(String[] args) {
         main();
     }
