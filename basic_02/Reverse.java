@@ -1,6 +1,7 @@
 public class Reverse {
     public static void main(String[] args) {
-        int num = 28456;
+        int num = 121;
+        int orignalno = num;
 
         int ans =0;
 
@@ -11,7 +12,12 @@ public class Reverse {
             ans = ans *10+rem;
             
         }
-        System.out.println(ans);
+        
+        if (orignalno == ans) {
+            System.out.println("Given no is palindrome");
+        }else{
+            System.out.println("is not palindrome");
+        }
     }
     
 }
